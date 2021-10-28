@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>DTI Sample Web Page</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex p-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link" href="#">GOVPH</a></li>
+              <li><a class="nav-link" href="#">Home</a></li>
+              <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">History</a></li>
+                  <li class="dropdown"><a href="#"><span>The Organization</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">The Office of Secretary</a></li>
+                      <li><a href="#">Competitiveness and Innovation</a></li>
+                      <li><a href="#">Consumer Production</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Executive Committe</a></li>
+                    <li><a href="#">The Secretary</a></li>
+                    <li><a href="#">Career Opportunities</a></li>
+                    <li><a href="#">DTI Logo</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Regions</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">NCR</a></li>
+                  <li><a href="#">CAR</a></li> 
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Overseas</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">Hongkong</a></li>
+                  <li><a href="#">Seoul</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">E-Library</a></li>
+                  <li><a href="#">Laws and Policies</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Partnerships</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li class="dropdown"><a href="#"><span>International Commitments</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Gender Responsive Economic ...</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Industry Development Program</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Greening the Industry Roadmap</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Good Governance</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">Transparency Seal</a></li>
+                  <li><a href="#">Citizen's Charter</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Foreign Assisted Projects</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li class="dropdown"><a href="#"><span>MSMEs</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Gender Responsive Economic ...</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Industry Development Program</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Greening the Industry Roadmap</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+        </div>
+        <div class="col-md-2 text-end">
+          <form class="form-inline search-form">
+            <input id="search" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+  </header>
+  <!-- ======= End Header ======= -->
+  
+    <div id="shrink-nav" class="row">
+      <div class="col-md-7">
+        <a href="#hero">
+          <img id="logo-master" src="assets/img/logo-master.jpg" alt="logo-master">
+        </a>
+      </div>
+      <div class="col-md-5 text-end flex-column">
+        <!-- <div class="row"> -->
+          <div class="col">
+            <label id="pst" class="text-end">Philippine Standard Time:</label><br>
+            <label class="text-end" for="datetime" id="date">Date / Time</label>
+          <!-- </div> -->
+          <!-- <div class="row"> -->
+            <div class="col">
+              <a href="">
+                <img id="seal" class="mini-logo" src="assets/img/transparency-seal-min.png" alt="seal">
+              </a>
+              <a href="">
+                <img id="foi" class="mini-logo" src="assets/img/foi-logo.png" alt="foi">
+              </a>
+            </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+  
+  <!-- ======= News Section ======= -->
+  <section id="news" class="news">
+    <div class="container">
+        
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav nav-tabs nav-fill" role="tablist">
+            <li class="nav-item active">
+              <a class="nav-link" data-toggle="tab" href="#newstab" role="tab" aria-controls="newstab" aria-selected="true">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#advisories" role="tab" aria-controls="advisories" aria-selected="false">ADVISORIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#resources" role="tab" aria-controls="resources" aria-selected="false">COVID-19 Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#stories" role="tab" aria-controls="stories" aria-selected="false">#DTIStories</a>
+            </li>
+          </ul>
+          
+          <div class="tab-content mt-3">
+            <div class="tab-pane active row mt-3" id="newstab" role="tabpanel" aria-labelledby="newstab-tab">
+              <div class="row bottom-border">
+                <div class="col-3">
+                  <img class="news-img" src="assets/img/news/asean.png" alt="">
+                </div>
+                <div class="col-9">
+                  <h4>DTI conducts public consultations for Online Businesses Guidelines</h4>
+                    <p>The Department of Trade and Industry (DTI), through its Consumer Protection Group (CPG) and E-commerce Division drafted the Joint Administrative Order (JAO) on Guidelines for Online Businesses Reiterating the Laws and Regulations Applicable to Online Businesses and Consumers to protect consumers against deceptive, unfair, and unconscionable sales acts and practices...</p>
+                    <a href="#">Read more</a>
+                </div>
+              </div>
+              <div class="row mt-2 bottom-border">
+                <div class="col-3">
+                  <img class="news-img" src="assets/img/news/grocery-4.png" alt="">
+                </div>
+                <div class="col-9">
+                  <h3>PH named most improved country in strategic trade control implementation</h4>
+                    <p>The Philippines was named the most improved country in the 2021/2022 Peddling Peril Index (PPI) of countries implementing strategic trade regulations. The Philippines’ ranking increased by 273 points from 482 points the previous year to 755 points, moving up from 86th place in 2020 to 49th place in 2021. Trade...</p>
+                    <a href="#">Read more</a>
+                </div>
+              </div>
+              <div class="row mt-2 bottom-border">
+                <div class="col-3">
+                  <img class="news-img" src="assets/img/news/cig.png" alt="">
+                </div>
+                <div class="col-9">
+                  <h3>Artificial Intelligence: Opportunities and Challenges for Philippine Industries</h4>
+                    <p>MAKATI CITY – Following the National AI Roadmap’s launching on 05 May 2021, the Department of Trade and Industry (DTI) is slated to conduct one of the Competitiveness and Innovation Gear-up (CIG) Talks on 27 October 2021 from 10:00 AM – 12:00 NN via Zoom platform, bearing the theme “Artificial...</p>
+                    <a href="#">Read more</a>
+                </div>
+              </div>
+              <p></p>
+                <h5><a href="">Click here to see more</a></h5>
+            </div>
+            <div class="tab-pane" id="advisories" role="tabpanel" aria-labelledby="advisories-tab">
+              <div class="row mt-3">
+               <table>
+                 <tr><td><a class="advisories" href="#">Advisory 21-20: On the Allowable On-Site Operational or Venue/Seating Capacity of Business Establishments, Persons, or Activities in the National Capital Region Under Alert Level 3</a></td></tr>
+                 <tr><td><a class="advisories" href="#">Preliminary Determination of the Safeguard Measures Case on GI, PPGI/PPGL, GL</a></td></tr>
+                 <tr><td><a class="advisories" href="#">DOLE-DOH-DILG-DOT-DTI Advisory No. 21-01, Series of 2021: Supplemental Guidelines Relative to the Implementing Guidelines of the Safety Seal Certification Program</a></td></tr>
+                 <tr><td><a class="advisories" href="#">Call for Inputs and Comments on the Draft Joint Administrative Order (JAO) on Guidelines for Online Businesses Reiterating the Laws and Regulations Applicable to Online Businesses and Consumers</a></td></tr>
+                 <tr><td><a class="advisories" href="#">Preliminary Determination on Safeguard Measures Application on the Importation of Linear Low Density Polyethylene (LLDPE) and High Density Polyethylene (HDPE) from Various Countries Filed by Petrochemical Industry</a></td></tr>
+                 <tr><td><a class="advisories" href="#">ADVISORY: Toyota Motor Philippines Corporation’s Special Service Campaign for the vacuum pump of Toyota Supra models</a></td></tr>
+                 <tr><td><a class="advisories" href="#">DTI urges exporters to participate in the UK public consultation on the generalized system of preferences (GSP) scheme</a></td></tr>
+                 <tr><td><a class="advisories" href="#">Advisory 21-19: On the Allowable On-Site Operational /Seating Capacity of Business Establishments/Activities</a></td></tr>
+                 <tr><td><a class="advisories" href="#">ADVISORY: Special Service Campaign for Fuel Pump Replacement on multiple Toyota Models</a></td></tr>
+                 <tr><td><a class="advisories" href="#">DTI, BSP and Bayan Academy launch #UsapangNegosyoAtPinansyal webinar</a></td></tr>
+               </table>
+               <p></p>
+               <h5><a href="">Click here to see more</a></h5>
+            </div>
+          </div>
+            <div class="tab-pane" id="resources" role="tabpanel" aria-labelledby="resources-tab">
+              <div class="row mt-3">
+                <p>Plese click <a href="#">here</a> if you are not redirected withing a few seconds.</p>
+              </div>
+            </div>
+            <div class="tab-pane row mt-3" id="stories" role="tabpanel" aria-labelledby="stories-tab">
+              <div class="row">
+                <h4>FEATURED SUCESS STORIES</h4>
+                <div class="row mt- bottom-border">
+                  <div class="col-3">
+                    <img class="news-img" src="assets/img/news/hope.jpg" alt="">
+                  </div>
+                  <div class="col-9">
+                    <h3>Embracing hope, moving beyond limits</h4>
+                      <p>“When you feel like there’s no way out, hope is the only way.”  Sta. Maria, Davao Occidental – This famous line has become the mantra of this entrepreneur here as she tries to make ends meet amid the challenging economic slowdown.  As the pandemic took its toll and severely paralyzed not...</p>
+                      <a href="#">Read more</a>
+                  </div>
+                </div>
+                <div class="row mt-2 bottom-border">
+                  <div class="col-3">
+                    <img class="news-img" src="assets/img/news/asean.png" alt="">
+                  </div>
+                  <div class="col-9">
+                    <h3>Fruits of Labor</h4>
+                      <p>Lorelie G. Valdez is the owner of RLGV Fruit Wine Industry, a fruit winery in the municipality of Alicia, Isabela established in year 2014. Processing wine started as a hobby of Lorelie, with her family’s encouragement and support, her hobby soon became her business. RLGV Fruit Wine Industry manufactures Bignay wine from fresh harvested currant... </p>
+                      <a href="#">Read more</a>
+                  </div>
+                </div>
+                <p></p>
+                <h6><a href="">Click here to see more</a></h6>
+              </div>
+              <p></p>
+              <div class="row">
+                <h4>#DTIMALASAKIT STORIES</h4>
+                <div class="row mt- bottom-border">
+                  <div class="col-3">
+                    <img class="news-img" src="assets/img/news/malasakit.jpg" alt="">
+                  </div>
+                  <div class="col-9">
+                    <h3>Marinduque fisherfolks and their success through these fermented Filipino cuisine staples</h4>
+                      <p>Buenavista Bagoong Producers Multi-Purpose Cooperative (BBPMPC), founded by 25 fisher folks from a small town in Marinduque, strives to promote special Asian condiments in a journey that enabled success through community development. Sailing against the waves of the past, the members faced an uncertain future as daily catch steadily dropped...</p>
+                      <a href="#">Read more</a>
+                  </div>
+                </div>
+                <div class="row mt-2 bottom-border">
+                  <div class="col-3">
+                    <img class="news-img" src="assets/img/news/success.jpg" alt="">
+                  </div>
+                  <div class="col-9">
+                    <h3>Worth the Bake: Success Story of Honey’s Homebakes</h4>
+                      <p>The recipe for cakes and pastries is changing, as bakers produce delicacies that are a feast for both the taste buds and eyes of their customers. This story of a local baker from Occidental Mindoro is the kind that hits close to home to entrepreneurs who found themselves shifting from... </p>
+                      <a href="#">Read more</a>
+                  </div>
+                </div>
+                <p></p>
+                <h6><a href="">Click here to see more</a></h6>
+              </div>
+              <p></p>
+              <div class="row">
+                <h4>FEATURED SUCESS STORIES</h4>
+                <div class="row mt- bottom-border">
+                  <div class="col-3">
+                    <img class="news-img" src="assets/img/news/ZTH_R11_DDS_2-1024x575.jpg" alt="">
+                  </div>
+                  <div class="col-9">
+                    <h3>Cagayan De Oro Handmade Paper Craft</h4>
+                      <p>HANDMADE MAKES ENTREP WELL-MADE Not everyone is given the chance to turn his or her passion into profit. Lolita “Luchi” Cabanlet is one of those who have successfully turned something she loves into something profitable. Luchi has always been interested in handicrafts. She started from scratch—quite literally. Scratch papers were...</p>
+                      <a href="#">Read more</a>
+                  </div>
+                </div>
+                <div class="row mt-2 bottom-border">
+                  <div class="col-3">
+                    <img class="news-img" src="assets/img/news/aqua.jpg" alt="">
+                  </div>
+                  <div class="col-9">
+                    <h3>Agusan del Norte: JIDA Aqua Resources</h4>
+                      <p>BOTTLING BOUNTY OF THE SEA In Butuan City, small-scale fisherfolks are no stranger to days when they would go home with almost empty nets. On slow days, they would typically often bring home bangus or milkfish fingerlings which are sold on a low price in the market. Despite their hard... </p>
+                      <a href="#">Read more</a>
+                  </div>
+                </div>
+                <p></p>
+                <h6><a href="">Click here to see more</a></h6>
+              </div>
+            </div>
+          </div>        
+        </div>
+      </section>
+
+    </div>
+  </div><!-- End News Section -->
+
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="row content justify-content-between">
+          
+          <div  class="col-lg-4 container row text-center">
+            <button type="button" class="tnk btn btn-outline-primary">
+            <img class="img-tnk" src="assets/img/negosyo-logo.png" alt="negosyo-logo">
+            <h3 class="h-tnk">Negosyo</h3></button>
+            <button type="button" class="tnk btn btn-outline-primary">Investments</button>
+            <button type="button" class="tnk btn btn-outline-primary">Manufacturing Resurgence</button>
+            <button type="button" class="tnk btn btn-outline-primary">EU-GSP+</button>
+            <button type="button" class="tnk btn btn-primary">More</button>
+          </div>
+          <div class="col-lg-4 container row text-center">
+            <button type="button" class="tnk btn btn-outline-primary">
+            <img  class="img-tnk" src="assets/img/consumer-logo.png" alt="consumer-logo">
+            <h3 class="h-tnk">Konsyumer</h3></button>
+            <button type="button" class="tnk btn btn-outline-primary">Check the Latest Prices</button>
+            <button type="button" class="tnk btn btn-outline-primary">File a Complaint</button>
+            <button type="button" class="tnk btn btn-outline-primary">Know your Consumer Rights</button>
+            <button type="button" class="tnk btn btn-primary">More</button>
+          </div>
+          <div class="col-lg-4 container row text-center">
+            <button type="button" class="tnk btn btn-outline-primary">
+            <img class="img-tnk" src="assets/img/work-logo.png" alt="work-logo">
+            <h3 class="h-tnk">Trabaho</h3></button>
+            <button type="button" class="tnk btn btn-outline-primary">Apply for a Business Name</button>
+            <button type="button" class="tnk btn btn-outline-primary">Start and Grow Your Business</button>
+            <button type="button" class="tnk btn btn-outline-primary">Learn about E-Commerce</button>
+            <button type="button" class="tnk btn btn-primary">More</button>
+          </div>
+
+      </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Banner Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <img src="assets/img/slide/1.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <img src="assets/img/slide/2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <img src="assets/img/slide/3.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon ri-arrow-left-line" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon ri-arrow-right-line" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Banner -->
+
+  </main><!-- End #main -->
+
+  
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top" style="background: url(assets/img/footer-img-2.jpg);">
+      <div class="container content-footer">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>OFFICE HOURS:</h3>
+              <p>
+                Monday - Friday <br>
+                8:00 am - 5:00 pm<br>
+                (except holidays)<br><br>
+                Trunkline: (632) 7751.0384 | (632) 7791.3100<br><br>
+              </p>
+              <h3>CUSTOMER CONTACT CENTER</h3>
+              <p>
+                Monday - Sunday <br>
+                8:00 am - 5:00 pm<br>
+                (except holidays)<br><br>
+                <strong>Telephone:</strong>  1-DTI (384)<br>
+                <strong>Mobile:</strong>  0917.834.3330<br>
+                <strong>Email:</strong> <a href="mailto:ask@dti.gov.ph" target="_blank" class="outbound-link">ask@dti.gov.ph</a><br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h3>MAIN OFFICE ADDRESS</h3>
+            <p>
+              Trade & Industry Building <br>
+              361 Sen. Gil J. Puyat Ave.,<br>
+              1200 Makati City, Philippines<br><br>
+            </p>
+            <h3>FEEDBACK FORM</h3>
+            <p> We would like to hear from you. 
+              Fill out the <a target="_blank" href="https://www.dti.gov.ph/feedback" rel="noopener noreferrer"><span style="color:#fff;text-decoration:underline;">Feedback Form</span></a> to 
+              provide us with your ideas on 
+              how we can improve our website. Thank you.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h3>QUICK LINKS</h3>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms and conditions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Website Privacy Policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Downloads</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Career Opportunities</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Freedom of Information</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Privacy in DTI</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Archives</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Links</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sitemap</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">List of DTI Online Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Philippine National Trade Repository</a></li>
+            </ul>
+            <br>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h3>RATINGS</h3>
+            <p id="show_message" style="display: none">Thanks for your rating and comments!</p>
+            <span id="error" style="display: none"></span>
+            <form action="javascript:void(0)" id="ajax-form" method="post">
+              <div class="form-group row">
+                <label for="ratings">Please rate this Website:</label><p></p>
+                <div class="radio">
+                  <label><input type="radio" name="ratings" value="vs" id="verysatisfactory" checked> Very Satisfactory</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="ratings" value="s" id="satisfactory"> Satisfactory</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="ratings" value="us" id="unsatisfactory"> Unsatisfactory</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="ratings" value="vus" id="veryunsatisfactory"> Very Unsatisfactory</label>
+                </div>
+              </div>
+              <br>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Comments:</label>
+                <textarea maxlength="40" class="form-control" name="comments" rows="3" style="resize: none;"></textarea>
+              </div>
+              <br>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <button onclick="return validateForm()" id="submit" name="submit" value="submit" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img src="assets/img/footer-logo.jpg" alt="footer-logo">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>REPUBLIC OF THE PHILIPPINES</h5>
+          <p>All content is in the public domain unless otherwise stated.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>About GOVPH</h5>
+          <p>Learn more about the Philippine government, its structure, how government works and the people behind it.</p>
+          <ul>
+            <li><a href="http://www.gov.ph/">GOV.PH</a></li>
+            <li><a href="http://www.gov.ph/data">Open Data Portal</a></li>
+            <li><a href="http://www.officialgazette.gov.ph">Official Gazette</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>GOVERNMENT LINKS</h5>
+            <ul>
+              <li><a href="http://president.gov.ph/">Office of the President</a></li>
+              <li><a href="http://ovp.gov.ph/">Office of the Vice President</a></li>
+              <li><a href="http://www.senate.gov.ph/">Senate of the Philippines</a></li>
+              <li><a href="http://www.congress.gov.ph/">House of Representatives</a></li>
+              <li><a href="http://sc.judiciary.gov.ph/">Supreme Court</a></li>
+              <li><a href="http://ca.judiciary.gov.ph/">Court of Appeals</a></li>
+              <li><a href="http://sb.judiciary.gov.ph/">Sandiganbayan</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <script>
+    //AJAX
+  $(document).ready(function($){
+  // hide messages 
+  $("#error").hide();
+  $("#show_message").hide();
+
+  // on submit...
+  $('#ajax-form').submit(function(e){
+  e.preventDefault();
+  $("#error").hide();
+
+  // ajax
+  $.ajax({
+  type:"POST",
+  url: "./submit.php",
+  data: $(this).serialize(), // get all form field value in serialize form
+  success: function(){
+  $("#show_message").fadeIn();
+  document.getElementById("ajax-form").reset();
+  $("#ajax-form").fadeOut();
+  }
+  });
+  });  
+  return false;
+  });
+
+  </script>
+
+</body>
+
+</html>
